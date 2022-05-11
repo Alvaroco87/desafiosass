@@ -1,0 +1,208 @@
+/* Inicio de General */
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap");
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Fin de General */
+/* Inicio del Header */
+/* Fin del Header */
+/* Inicio del Carrousel */
+.titulo {
+  font-size: 55px;
+  text-align: center;
+  font-family: "Khand", sans-serif;
+  font-style: italic;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 700px;
+  padding: 0;
+  margin: 0;
+}
+
+.carrusel-img {
+  height: 700px;
+  -webkit-filter: brightness(20%);
+  filter: brightness(20%);
+}
+
+/* fin del carrousel*/
+/* Inicio de la Seccion del Index */
+.titulo-2 {
+  font-size: 70px;
+  text-align: center;
+  padding-top: 90px;
+  font-family: "Khand";
+  padding-bottom: 60px;
+  color: #383838;
+  text-decoration: underline;
+}
+
+.section .section-article-img {
+  height: 350px;
+  width: 600px;
+}
+.section .section-article-p {
+  margin-top: 20px;
+  color: black;
+  font-size: 25px;
+}
+
+.row {
+  display: -webkit- box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+/* Fin de la Seccion del Index */
+/*footer inicio*/
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: #0f0f0f;
+  text-align: center;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
+}
+footer footer p {
+  float: left;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.801);
+  font-size: small;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: start;
+}
+footer .footermodding {
+  background-color: #202020;
+}
+footer footer i {
+  font-size: 30px;
+  color: #2aff26;
+  padding-bottom: 10px;
+  letter-spacing: 20px;
+  padding-top: 10px;
+}
+footer footer a {
+  float: right;
+}
+footer footer div {
+  padding-right: 60px;
+}
+
+/*Footer fin*/
+/*Botoncito Inicio*/
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: #161616;
+  border: 5px solid white;
+  color: #2aff26;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 10px black;
+  box-shadow: 2px 2px 10px black;
+}
+
+.subir:hover {
+  background-color: #d2a1ff;
+  border: 5px solid #2aff26;
+  color: #250c3d;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/*Botoncito Fin*/
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #7401b6;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.header .logo {
+  font-family: "Khand", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 40px;
+  line-height: 70px;
+}
+.header .logo:hover {
+  color: white;
+}
+.header .icono {
+  color: #2aff26;
+}
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  /*max-width: 992px;
+  margin: 0 auto;*/
+}
+.header .nav .nav-link {
+  color: white;
+  text-decoration: none;
+}
+.header .futurestriker {
+  display: inline;
+}
+.header .nav-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+.header .nav-header .nav-header-item {
+  font-family: "Khand", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  line-height: 70px;
+  text-transform: uppercase;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: inline;
+}
+.header .nav-header .nav-header-link {
+  border-radius: 2px;
+}
+.header .nav-header .nav-header-link:hover {
+  background-color: #5a028d;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: white;
+  margin: 0%;
+}
+
+/*# sourceMappingURL=styles.css.map */
