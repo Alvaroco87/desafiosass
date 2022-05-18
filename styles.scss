@@ -3,6 +3,9 @@
 $colorverde:#2aff26;
 
 $font1: 'Khand', sans-serif;
+
+
+
 @media screen and (min-width: 376px){
     body {
         padding-top: 70px;
@@ -55,7 +58,7 @@ $font1: 'Khand', sans-serif;
     .section{
         .section-article-img {
             height: 350px;
-            width: 600px;
+            width: 500px;
         }
         
         .section-article-p {
@@ -63,16 +66,16 @@ $font1: 'Khand', sans-serif;
             color: black;
             font-size: 25px;
         }
+        .row {
+            display: -webkit-   box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 80px;
+        }
         
     }
     
-    
-    .row {
-        display: -webkit-   box;
-        display: -ms-flexbox;
-        display: flex;
-        margin-bottom: 80px;
-    }
     
     /* Fin de la Seccion del Index */
     /*footer inicio*/
@@ -154,6 +157,24 @@ $font1: 'Khand', sans-serif;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+@media screen and (min-width: 768px) and (max-width:1199px){
+    
+
+    .section{
+        .section-article-img {
+            height: 220px;
+            width: 250px;
+        }
+        
+        .section-article-p {
+            margin-top: 20px;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        
+    }
+}
+
 @media screen and (max-width: 977px){
 
     .toggle{

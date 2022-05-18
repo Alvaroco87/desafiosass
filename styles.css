@@ -50,18 +50,18 @@
 
   .section .section-article-img {
     height: 350px;
-    width: 600px;
+    width: 500px;
   }
   .section .section-article-p {
     margin-top: 20px;
     color: black;
     font-size: 25px;
   }
-
-  .row {
+  .section .row {
     display: -webkit- box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: row;
     margin-bottom: 80px;
   }
 
@@ -145,6 +145,17 @@
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section .section-article-img {
+    height: 220px;
+    width: 250px;
+  }
+  .section .section-article-p {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 977px) {
   .toggle {
     display: block;
@@ -482,6 +493,7 @@
   /*Botoncito Fin*/
 }
 .header {
+  z-index: 100;
   height: 70px;
   width: 100%;
   background-color: #7401b6;
@@ -512,6 +524,7 @@
   justify-content: space-between;
   /*max-width: 992px;
   margin: 0 auto;*/
+  z-index: 100;
 }
 .header .nav .nav-link {
   color: white;
@@ -538,6 +551,7 @@
   width: -moz-max-content;
   width: max-content;
   display: inline;
+  z-index: 100;
 }
 .header .nav-header .nav-header-link {
   border-radius: 2px;
