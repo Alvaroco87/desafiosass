@@ -68,4 +68,80 @@
             margin: 0%;
         }
     }
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+        /* Inicio del Header */
+    .header{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(116, 1, 182);
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        max-width: 575px;
+        margin: 0 auto;
+    }
+
+    .futurestriker{
+        display: none !important;
+    }
+
+    /* --logo inicio-- */
+
+    .logo{
+        font-size: 30px;
+        padding-left:15px;
+        line-height: 50px;
+        width: 100px;
+        width: 30px;
+    }
+    
+    .icono{
+        color: rgb(42, 255, 38);
+    }
+
+    .futurestriker{
+        display: none;
+    }
+
+    /* --logo fin-- */ 
+
+    .nav-header{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 20px;
+        list-style: none;
+    }
+    
+    .nav-header-item{
+        font-family: 'Khand', sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin: 0 10px;
+        line-height: 40px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+
+    .nav-header-link{
+        padding: 10px 10px;
+        border-radius: 2px;
+        height: 50px;
+    }
+    
+    .nav-header-link:hover{
+        background-color: rgb(90, 2, 141) ;
+        transition: 0.2s;
+    }
+    
+    /* Fin del Header */
 }
