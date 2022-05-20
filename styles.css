@@ -1,139 +1,138 @@
 @import url("https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap");
 @media screen and (min-width: 376px) {
   .form-control {
-    border-color: #28a745;
-    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-    -webkit-box-shadow: none;
-    outline: -webkit-focus-ring-color auto 0px;
-    color: #0f0f0f;
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  -webkit-box-shadow: none;
+  outline: -webkit-focus-ring-color auto 0px;
+  color: #0f0f0f;
   }
 
   body {
-    padding-top: 70px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   /* Fin de General */
   .toggle {
-    color: white;
-    background: none;
-    border: none;
-    padding: 0 20px;
-    line-height: 60px;
-    display: none;
+  color: white;
+  background: none;
+  border: none;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
   }
 
   /* Inicio del Carrousel */
   .titulo {
-    font-size: 55px;
-    text-align: center;
-    font-family: "Khand", sans-serif;
-    font-style: italic;
+  font-size: 55px;
+  text-align: center;
+  font-family: "Khand", sans-serif;
+  font-style: italic;
   }
 
   .container-fluid {
-    width: 100%;
-    height: 700px;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  height: 700px;
+  padding: 0;
+  margin: 0;
   }
 
   .carrusel-img {
-    height: 700px;
-    -webkit-filter: brightness(20%);
-    filter: brightness(20%);
+  height: 700px;
+  -webkit-filter: brightness(20%);
+  filter: brightness(20%);
   }
 
   /* fin del carrousel*/
   /* Inicio de la Seccion del Index */
   .titulo-2 {
-    font-size: 70px;
-    text-align: center;
-    padding-top: 90px;
-    font-family: "Khand", sans-serif;
-    padding-bottom: 60px;
-    color: #383838;
-    text-decoration: underline;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 90px;
+  font-family: "Khand", sans-serif;
+  padding-bottom: 60px;
+  color: #383838;
+  text-decoration: underline;
   }
 
   .section .section-article-img {
-    height: 350px;
-    width: 500px;
+  height: 350px;
   }
   .section .section-article-p {
-    margin-top: 20px;
-    color: black;
-    font-size: 25px;
+  margin-top: 20px;
+  color: black;
+  font-size: 25px;
   }
   .section .row {
-    display: -webkit- box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 80px;
+  display: -webkit- box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
   }
 
   /* Fin de la Seccion del Index */
   /*footer inicio*/
   footer {
-    height: 60px;
-    width: 100%;
-    background-color: #0f0f0f;
-    text-align: center;
+  height: 60px;
+  width: 100%;
+  background-color: #0f0f0f;
+  text-align: center;
   }
 
   footer {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50%;
-    grid-template-columns: 50% 50%;
-    -ms-grid-rows: 100%;
-    grid-template-rows: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
   }
   footer footer p {
-    float: left;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 10px;
-    color: rgba(255, 255, 255, 0.801);
-    font-size: small;
-    margin-left: 20px;
-    margin-top: 10px;
-    text-align: start;
+  float: left;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.801);
+  font-size: small;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: start;
   }
   footer .footermodding {
-    background-color: #202020;
+  background-color: #202020;
   }
   footer footer i {
-    font-size: 30px;
-    color: #2aff26;
-    padding-bottom: 10px;
-    letter-spacing: 20px;
-    padding-top: 10px;
+  font-size: 30px;
+  color: #2aff26;
+  padding-bottom: 10px;
+  letter-spacing: 20px;
+  padding-top: 10px;
   }
   footer footer a {
-    float: right;
+  float: right;
   }
   footer footer div {
-    padding-right: 60px;
+  padding-right: 60px;
   }
 
   /*Footer fin*/
   /*Botoncito Inicio*/
   .subir {
-    height: 40px;
-    width: 40px;
-    background-color: #161616;
-    border: 5px solid white;
-    color: #2aff26;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 50%;
-    -webkit-box-shadow: 2px 2px 10px black;
-    box-shadow: 2px 2px 10px black;
+  height: 40px;
+  width: 40px;
+  background-color: #161616;
+  border: 5px solid white;
+  color: #2aff26;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 10px black;
+  box-shadow: 2px 2px 10px black;
   }
 
   .subir:hover {
@@ -167,9 +166,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 200px);
-  grid-template-areas: "img1 img2 img3 img3"
-                        "img1 img4 img5 img6" 
-                        "img7 img4 img8 img8";
+  grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
   gap: 5px;
   padding: 5px;
   max-width: 998px;
@@ -325,6 +322,9 @@ img {
   }
 
   /*FIN DE INFO*/
+  img.section-article-img {
+    width: 250px;
+  }
 }
 @media screen and (max-width: 977px) {
   .toggle {
@@ -422,7 +422,6 @@ img {
 
   .section-article-img {
     height: 150px;
-    width: 50%;
   }
 
   .section-article-p {
@@ -456,6 +455,284 @@ img {
 
   .footer-info {
     margin-top: 231px;
+  }
+
+  /*FIN DE INFO*/
+}
+@media screen and (max-width: 425px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /* Fin de General */
+  /* Inicio del Header */
+  .toggle {
+    display: block;
+    color: white;
+    background: none;
+    border: none;
+    padding: 0 20px;
+    line-height: 10px;
+    cursor: pointer;
+  }
+
+  .header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(116, 1, 182);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 575px;
+    margin: 0 auto;
+  }
+
+  .futurestriker {
+    display: none !important;
+  }
+
+  .icono {
+    height: 10px;
+    width: 10px;
+  }
+
+  /* --logo inicio-- */
+  .logo {
+    font-size: 30px;
+    padding-left: 15px;
+    line-height: 50px;
+    width: 100px;
+    width: 30px;
+  }
+
+  .icono {
+    color: rgb(42, 255, 38);
+  }
+
+  .futurestriker {
+    display: none;
+  }
+
+  /* --logo fin-- */
+  .nav-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+    list-style: none;
+    background-color: #161616;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 0%;
+    height: calc(100% - 60px);
+    overflow: auto;
+    left: 0;
+    transition: left 0, 3s;
+  }
+
+  .nav-header_visible {
+    left: 100%;
+  }
+
+  .nav-header-item {
+    font-family: "Khand", sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin: 0 10px;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+
+  .nav-header-link {
+    padding: 10px 10px;
+    border-radius: 2px;
+    height: 50px;
+  }
+
+  .nav-header-link:hover {
+    background-color: rgb(90, 2, 141);
+    transition: 0.2s;
+  }
+
+  /* Fin del Header */
+  /* Inicio del Carrousel */
+  .titulo {
+    font-size: 55px;
+    text-align: center;
+    font-family: "Khand", sans-serif;
+    font-style: italic;
+  }
+
+  .container-fluid {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .carrusel-img {
+    width: 100%;
+    height: 500px;
+    filter: brightness(20%);
+  }
+
+  /* fin del carrousel*/
+  /* Inicio de la Seccion del Index */
+  .titulo-2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: "Khand";
+    padding-bottom: 60px;
+    color: rgb(56, 56, 56);
+    text-decoration: underline;
+  }
+
+  .item1 {
+    width: 30px;
+  }
+
+  .section-article-p {
+    margin-top: 20px;
+    color: black;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  img.section-article-img {
+    width: 390px;
+  }
+
+  /* Fin de la Seccion del Index */
+  /*footer inicio*/
+  footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+
+  footer p {
+    float: left;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: small;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: start;
+  }
+
+  .footermodding {
+    background-color: rgb(32, 32, 32);
+  }
+
+  footer i {
+    font-size: 30px;
+    color: rgb(42, 255, 38);
+    padding-bottom: 10px;
+    letter-spacing: 20px;
+    padding-top: 10px;
+  }
+
+  footer a {
+    float: right;
+  }
+
+  footer div {
+    padding-right: 60px;
+  }
+
+  /*Footer fin*/
+  /*Botoncito Inicio*/
+  .subir {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(22, 22, 22);
+    border: 5px solid rgb(255, 255, 255);
+    color: rgb(42, 255, 38);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  }
+
+  .subir:hover {
+    background-color: rgb(210, 161, 255);
+    border: 5px solid rgb(42, 255, 38);
+    color: rgb(37, 12, 61);
+    transform: scale(1.2);
+  }
+
+  /*Botoncito Fin*/
+  /*GALERIA*/
+  .titulo-galeria {
+    padding-top: 140px;
+  }
+
+  .galeria-1 {
+    width: 370px;
+    grid-template-rows: repeat(3, 100px);
+  }
+
+  .footer-galeria {
+    margin-top: 111px;
+  }
+
+  /*FIN DE GALERIA*/
+  /*REGISTRO*/
+  .footer-registro {
+    margin-top: 113px;
+  }
+
+  /*FIN DE REGISTRO*/
+  /*INFO*/
+  .titulo-info {
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Khand";
+    color: rgb(56, 56, 56);
+    text-decoration: underline;
+    padding-top: 42px;
+    padding-bottom: 40px;
+  }
+
+  .parrafo-info {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0 20px;
+    margin-bottom: 10px;
+  }
+
+  .footer-info {
+    margin-top: 181px;
   }
 
   /*FIN DE INFO*/
@@ -613,6 +890,10 @@ img {
 
   .row {
     display: flex;
+  }
+
+  img.section-article-img {
+    width: 250px;
   }
 
   /* Fin de la Seccion del Index */
