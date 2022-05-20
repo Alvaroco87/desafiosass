@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap");
 @media screen and (min-width: 376px) {
+  .form-control {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+    color: #0f0f0f;
+  }
+
   body {
     padding-top: 70px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -138,6 +146,129 @@
 
   /*Botoncito Fin*/
 }
+/*GALERIA*/
+.titulo-galeria {
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Khand";
+  color: rgb(56, 56, 56);
+  text-decoration: underline;
+  padding-top: 42px;
+  padding-bottom: 40px;
+}
+
+.main-galeria {
+  display: flex;
+  justify-content: center;
+}
+
+.galeria-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
+  gap: 5px;
+  padding: 5px;
+  max-width: 998px;
+  margin-bottom: 30px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.img {
+  border-radius: 3px;
+}
+
+.img:hover {
+  transform: scale(1.015);
+  transition: all 0.3s;
+  box-shadow: 1px 1px 4px #333;
+  cursor: pointer;
+}
+
+.img1 {
+  grid-area: img1;
+  background-color: wheat;
+}
+
+.img2 {
+  grid-area: img2;
+  background-color: blueviolet;
+}
+
+.img3 {
+  grid-area: img3;
+  background-color: brown;
+}
+
+.img4 {
+  grid-area: img4;
+  background-color: green;
+}
+
+.img5 {
+  grid-area: img5;
+  background-color: crimson;
+}
+
+.img6 {
+  grid-area: img6;
+  background-color: darkgray;
+}
+
+.img7 {
+  grid-area: img7;
+  background-color: aquamarine;
+}
+
+.img8 {
+  grid-area: img8;
+  background-color: rgb(71, 71, 71);
+}
+
+.footer-galeria {
+  margin-top: 16px;
+}
+
+/*Fin de Galeria*/
+/*REGISTRO*/
+.registro {
+  padding-top: 90px;
+  max-width: 600px;
+}
+
+.footer-registro {
+  margin-top: 318px;
+}
+
+/*Fin de REGISTRO*/
+/*INFO*/
+.titulo-info {
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Khand";
+  color: rgb(56, 56, 56);
+  text-decoration: underline;
+  padding-top: 42px;
+  padding-bottom: 40px;
+}
+
+.parrafo-info {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 34px;
+  text-align: justify;
+  margin: 0 80px;
+  margin-bottom: 258px;
+  position: static;
+}
+
+/*FIN DE INFO*/
 /* Inicio de General */
 * {
   margin: 0;
@@ -155,6 +286,43 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
   }
+
+  /*GALERIA*/
+  .galeria-1 {
+    width: 700px;
+    grid-template-rows: repeat(3, 150px);
+  }
+
+  .footer-galeria {
+    margin-top: 154px;
+  }
+
+  /*FIN DE GALERIA*/
+  /*INFO*/
+  .titulo-info {
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Khand";
+    color: rgb(56, 56, 56);
+    text-decoration: underline;
+    padding-top: 42px;
+    padding-bottom: 40px;
+  }
+
+  .parrafo-info {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin: 0 40px;
+  }
+
+  .footer-info {
+    margin-top: 271px;
+  }
+
+  /*FIN DE INFO*/
 }
 @media screen and (max-width: 977px) {
   .toggle {
@@ -263,6 +431,32 @@
   .row {
     display: block;
   }
+
+  /*INFO*/
+  .titulo-info {
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Khand";
+    color: rgb(56, 56, 56);
+    text-decoration: underline;
+    padding-top: 42px;
+    padding-bottom: 40px;
+  }
+
+  .parrafo-info {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    text-align: justify;
+    margin: 0 40px;
+  }
+
+  .footer-info {
+    margin-top: 231px;
+  }
+
+  /*FIN DE INFO*/
 }
 @media screen and (max-width: 375px) {
   body {
@@ -491,6 +685,53 @@
   }
 
   /*Botoncito Fin*/
+  /*GALERIA*/
+  .titulo-galeria {
+    padding-top: 140px;
+  }
+
+  .galeria-1 {
+    width: 370px;
+    grid-template-rows: repeat(3, 100px);
+  }
+
+  .footer-galeria {
+    margin-top: 111px;
+  }
+
+  /*FIN DE GALERIA*/
+  /*REGISTRO*/
+  .footer-registro {
+    margin-top: 113px;
+  }
+
+  /*FIN DE REGISTRO*/
+  /*INFO*/
+  .titulo-info {
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Khand";
+    color: rgb(56, 56, 56);
+    text-decoration: underline;
+    padding-top: 42px;
+    padding-bottom: 40px;
+  }
+
+  .parrafo-info {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0 20px;
+    margin-bottom: 10px;
+  }
+
+  .footer-info {
+    margin-top: 55px;
+  }
+
+  /*FIN DE INFO*/
 }
 .header {
   z-index: 100;
