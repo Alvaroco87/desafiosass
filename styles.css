@@ -167,7 +167,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 200px);
-  grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
+  grid-template-areas: "img1 img2 img3 img3"
+                        "img1 img4 img5 img6" 
+                        "img7 img4 img8 img8";
   gap: 5px;
   padding: 5px;
   max-width: 998px;
