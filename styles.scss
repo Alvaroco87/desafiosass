@@ -7,6 +7,9 @@ $font1: 'Khand', sans-serif;
 
 
 @media screen and (min-width: 376px){
+    .espacio{
+        padding-bottom: 40px
+    }
     .form-control{
         border-color: #28a745;
         box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
@@ -276,7 +279,9 @@ img{
 }
 @media screen and (min-width: 768px) and (max-width:1199px){
     
-
+    .espacio{
+        padding-bottom: 40px
+    }
     .section{
         .section-article-img {
             height: 220px;
@@ -329,6 +334,9 @@ img{
 
 @media screen and (max-width: 977px){
 
+    .espacio{
+        padding-bottom: 40px
+    }
     .toggle{
         display: block;
         color: white;
@@ -462,6 +470,9 @@ img{
     
 }
 @media screen and (max-width: 425px){
+    .espacio{
+        padding-bottom: 40px
+    }
     body{
         padding-left: 0;
         padding-right: 0;
@@ -726,6 +737,9 @@ img{
 }
 
 @media screen and (max-width: 375px){
+    .espacio{
+        padding-bottom: 40px
+    }
     body{
         padding-left: 0;
         padding-right: 0;

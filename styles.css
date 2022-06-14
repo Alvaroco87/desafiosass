@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap");
 @media screen and (min-width: 376px) {
+  .espacio{
+    padding-bottom: 40px
+}
+.yo{
+  height: 300px;
+  width: 300px;
+  padding-left: 50px;
+  border-radius: 50%;
+  margin-bottom: 350px;
+}
+.articulo-info{
+  margin-left: 20%;
+}
   .form-control {
   border-color: #28a745;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
@@ -35,6 +48,7 @@
   width: 100%;
   height: 700px;
   padding: 0;
+  
   margin: 0;
   }
 
@@ -276,6 +290,9 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .espacio{
+    padding-bottom: 40px
+}
   .section .section-article-img {
     height: 220px;
     width: 250px;
@@ -327,6 +344,9 @@ img {
   }
 }
 @media screen and (max-width: 977px) {
+  .espacio{
+    padding-bottom: 40px
+}
   .toggle {
     display: block;
     color: white;
@@ -460,6 +480,9 @@ img {
   /*FIN DE INFO*/
 }
 @media screen and (max-width: 425px) {
+  .espacio{
+    padding-bottom: 40px
+}
   body {
     padding-left: 0;
     padding-right: 0;
@@ -738,6 +761,9 @@ img {
   /*FIN DE INFO*/
 }
 @media screen and (max-width: 375px) {
+  .espacio{
+    padding-bottom: 40px
+}
   body {
     padding-left: 0;
     padding-right: 0;
@@ -1089,6 +1115,9 @@ img {
 }
 
 @media screen and (max-width: 375px) {
+  .espacio{
+    padding-bottom: 40px
+}
   /* Inicio del Header */
   .header {
     height: 50px;
